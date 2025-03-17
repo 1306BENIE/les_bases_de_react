@@ -1,7 +1,13 @@
 import Banner from './Banner';
+import Cart from './cart';
 
 const App = ()=> {
-  return <Banner />
+  return (
+    <div>
+      <Banner />
+      <Cart />
+    </div>
+  )
 }
 
 export default App;

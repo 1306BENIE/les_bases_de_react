@@ -1,9 +1,4 @@
-function Banner() {
-  const title = "La maison jungle"
-    return (<h1>{title}</h1>)
-  }
-  
-  function Cart() {
+const Cart = () => {
   const monsteraPrice = 8
   const ivyPrice = 10
   const flowerPrice = 15
@@ -18,4 +13,4 @@ function Banner() {
         </div>)
   }
   
-ReactDOM.render(<div><Banner /><Cart /></div>, document.getElementById('root'))
+export default Cart;
